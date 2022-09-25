@@ -1,0 +1,92 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.sig{
+    color: rgb(4, 125, 177);
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+  text-decoration: none; 
+  background-image: linear-gradient(rgb(13, 69, 147), rgb(71, 194, 255));
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.youtube-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(118, 101, 71));
+    color: white;
+    padding: 10px 40px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big img{
+    width: 100%;
+    border-radius: 10%;
+}
+.facebook-button{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, darkblue);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.instragram-button{
+    text-decoration: none;
+    background-image: linear-gradient(purple, orange);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#camera-expert{
+    border-left: 7px solid tomato;
+}
+#normal-user{
+    border-left: 7px solid teal;
+}
+footer p{
+    text-align: center;
+}
